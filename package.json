@@ -1,0 +1,67 @@
+{
+  "name": "hdwallet",
+  "version": "0.7.3",
+  "description": "BIP32 & BIP44 Hierarchical Deterministic Wallet.",
+  "main": "src/hdwallet.js",
+  "dependencies": {
+    "async": "^1.3.0",
+    "bigi": "^1.4.1",
+    "bip38": "1.4.0",
+    "bip39": "^2.2.0",
+    "bitcoinjs-lib": "1.5.8",
+    "blockexplorer-rpc": "0.0.4",
+    "coinkey": "^1.4.0",
+    "coinstring": "^2.3.0",
+    "crypto": "0.0.3",
+    "crypto-hashing": "^0.3.1",
+    "data-storage": "~0.0.4",
+    "jsonfile": "^2.2.1",
+    "lodash": "^4.16.4",
+    "path-extra": "^1.0.3",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-string": "^1.1.6",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trivechain/hdwallet.git"
+  },
+  "keywords": [
+    "hdwallet",
+    "bip32",
+    "bip44",
+    "trivechain",
+    "asset"
+  ],
+  "contributors": [
+    {
+      "name": "Eliran Zach",
+      "email": "thehobbit85@gmail.com"
+    },
+    {
+      "name": "bejavu",
+      "email": "tal@colu.com"
+    },
+    {
+      "name": "oleiba",
+      "email": "oded@colu.com"
+    },
+    {
+      "name": "jsheng08",
+      "email": "js@trive.academy"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trivechain/hdwallet/issues"
+  },
+  "homepage": "https://github.com/trivechain/hdwallet"
+}
